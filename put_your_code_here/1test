@@ -1,0 +1,8 @@
+article = article1.replace("\n", " ")
+
+sentences = find_all_sentence_from_content(article)
+ 
+
+n = len(sir_names)
+from itertools import product
+all_conditions = list(product([0,1],repeat = n)) 
